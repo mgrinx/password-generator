@@ -36,8 +36,6 @@ function generatePassword() {
         alert("Please enter a number between 8 and 128.");
         passwordLength = prompt("Enter password length (between 8 and 128):");
     }
-    // fix if user entered a decimal for some reason
-    passwordLength = Math.floor(passwordLength);
 
     // Create the password
     var password = "";
