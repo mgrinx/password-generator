@@ -39,7 +39,7 @@ function generatePassword() {
 
     // Create the password
     var password = "";
-    for (let i = 0; i <= passwordLength; i++) {
+    for (let i = 0; i < passwordLength; i++) {
         password += chars[Math.floor(Math.random() * (chars.length))];
     }
     return password;
